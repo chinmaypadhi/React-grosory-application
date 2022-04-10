@@ -1,0 +1,63 @@
+#header {
+  width: 100%;
+  height: 90vh;
+  padding-top: 100px;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: darkturquoise;
+  border: 1px solid darkturquoise;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: darkturquoise;
+  color: #fff;
+}
+
+.my_font {
+  font-size: 20px;
+}
+.header-img {
+  min-height: 200px !important;
+  text-align: right;
+}
+
+/* @media screen and (max-width: 480px) {
+    #header{
+   margin-top: 140px;
+    }
+  } */
+
+@media screen and (max-width: 991.98px) {
+  .my_font {
+    font-size: 16px;
+  }
+  .slogan {
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .header-img {
+    height: 150px !important;
+    width: 300px !important;
+  }
+}
+
+.brand-name {
+  color: limegreen !important;
+}
+
+.brand-name1 {
+  color: #19aff6;
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.error {
+  color: black;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.my_link {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  border: 1px solid lime;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 200px;
+  background: #0dbd88;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  color: #fff;
+}
+
+.my_link:hover {
+  background: #fff;
+  color: green;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}

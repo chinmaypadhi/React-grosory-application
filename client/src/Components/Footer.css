@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+.my_footer {
+  margin-top: 170px;
+}
+
+@media (max-width: 960px) {
+  .my_footer {
+    margin-top: 70px;
+  }
+}
+
+.text-reset {
+  text-decoration: none !important;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+a .btn .btn-outline-light {
+  border-radius: 50%;
+}
+.my-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.footer_desc {
+  font-family: "Teko", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px !important;
+}
+
+.conct_details {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 2px;
+  font-size: 21px;
+}
+
+.details {
+  font-size: 21px;
+  letter-spacing: 3px !important;
+}
